@@ -2,8 +2,7 @@
 name: pipeline
 
 on:
-  push:
-  
+  push: 
 jobs:
   unit-test:
     runs-on: ubuntu-latest
